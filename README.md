@@ -20,11 +20,13 @@ cd sample_project
 vagrant up
 ```
 4. 完了まで待つ
-** もし共有フォルダのマウントのところでエラーが出る場合はプラグインをインストールしておく **
+
+**もし共有フォルダのマウントのところでエラーが出る場合はプラグインをインストールしておく**
 ```
 vagrant plugin install vagrant-vbguest
 ```
 5. ルートディレクトリの編集
+
 **vagrant up時に/var/www/appが作成されています**
 ```
  cd /etc/httpd/conf/
@@ -67,6 +69,7 @@ getenfoce #=> Permissive
 ELINUX=enabled　=> ELINUX=disabled
 ```
 9. test.phpにアクセスできているか確認
+
 `192.168.33.10`でアクセス
 
 
