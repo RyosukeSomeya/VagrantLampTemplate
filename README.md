@@ -12,7 +12,11 @@
 ```
 mkdir sample_project
 ```
-
+2. 必要なプラグインをインストール
+* ファイル共有に必要 
+```
+vagrant plugin install vagrant-vbguest 
+```
 2. Vagrantfileを配置
 3. vagrantを立ち上げる
 ```
@@ -21,10 +25,6 @@ vagrant up
 ```
 4. 完了まで待つ
 
-**もし共有フォルダのマウントのところでエラーが出る場合はプラグインをインストールしておく**
-```
-vagrant plugin install vagrant-vbguest
-```
 5. ルートディレクトリの編集
 
 **vagrant up時に/var/www/appが作成されています**
